@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { argv, env, exit } from 'process';
 import { staticServer } from './index.js';
 
