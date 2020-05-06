@@ -1,0 +1,32 @@
+{
+  "name": "@liamnewmarch/static-server",
+  "version": "0.1.0",
+  "description": "A minimal HTTP server for static files.",
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "static-server": "cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "mime-types": "^2.1.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamnewmarch/static-server.git"
+  },
+  "keywords": [],
+  "author": "Liam Newmarch <liamnewmarch@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamnewmarch/static-server/issues"
+  },
+  "homepage": "https://github.com/liamnewmarch/static-server#readme"
+}
